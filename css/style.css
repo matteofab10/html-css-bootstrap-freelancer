@@ -1,0 +1,29 @@
+header {
+   height: 70px;  /*da togliere */
+   background-color: blue;
+}
+
+.jumbotron {
+  height: 300px;  /*da togliere */
+  background-color: aquamarine;
+}
+
+main {
+  background-color: white;
+}
+
+.mf_box {
+  height: 100px;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.credits {
+  height: 200px;  /*da togliere */
+  background-color: aquamarine;
+}
+
+footer {
+  height: 100px;  /*da togliere */
+  background-color: blue;
+}
