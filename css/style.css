@@ -1,6 +1,7 @@
 header {
    height: 70px;  /*da togliere */
    background-color: blue;
+   color: white;
 }
 
 .jumbotron {
@@ -19,11 +20,16 @@ main {
 }
 
 .credits {
-  height: 200px;  /*da togliere */
   background-color: aquamarine;
+}
+
+.contacts {
+  height: 200px;
+  background-color: #fff;
 }
 
 footer {
   height: 100px;  /*da togliere */
   background-color: blue;
+  color: white;
 }
