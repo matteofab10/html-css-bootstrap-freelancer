@@ -1,11 +1,10 @@
 header {
    height: 70px;  /*da togliere */
-   background-color: #2C3D50;
-   color: white;
+   background-color: #2c3e50;
 }
 
 .mf-jumbotron {
-  background-color: #31BC9C;
+  background-color: #1abc9c;
   margin-top: 70px;
 }
 
@@ -23,10 +22,6 @@ main {
   background-color: white;
 }
 
-.mf-box {
-  position: relative;
-}
-
 .mf-box img {
   width: 100%;
   border-radius: 20px;
@@ -38,16 +33,52 @@ main {
 }
 
 .credits {
-  background-color: #31BC9C;
+  background-color: #1abc9c;
+}
+
+.mf-btn {
+  background-color: #1abc9c;
+  border: 1px solid white;
+  color: white;
 }
 
 .contacts {
-  height: 200px;
   background-color: #fff;
 }
 
-footer {
-  height: 100px;  /*da togliere */
-  background-color: #2C3D50;
+form{
+  padding-top: 30px;
+}
+
+.mf-custom-border{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
+}
+
+::placeholder {
+  color: black !important;
+}
+
+.mf-bg-green{
+  background-color: #1abc9c;
+  border-color: #1abc9c;
   color: white;
+}
+
+.mf-txt-color-white {
+  color: white;
+}
+
+.footer-top {
+  background-color: #3a546d;
+}
+
+.mf-font-circle div {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.footer-bottom {
+  background-color: #2c3e50;
 }

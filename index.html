@@ -12,34 +12,38 @@
 <body>
     <header class="fixed-top">
       <div class="container">
-        <div class="row">
-          <div class="col">Start Bootstrap</div>
-          <div class="col text-end">Menu
-            <div class="d-none d-md-block">MENU</div>
-            <div class="d-md-none">HAMB</div>
+        <div class="row justify-content-center align-items-center align-content-center">
+          <div class="col text-uppercase fw-bold mf-txt-color-white">Start Bootstrap</div>
+          <div class="col text-end">
+            <div class="d-none d-md-block text-uppercase fw-bold mf-txt-color-white">
+              <div class="d-inline-block me-3">portfolio</div>
+              <div class="d-inline-block me-3">about</div>
+              <div class="d-inline-block me-3">contact</div>
+            </div>
+            <div class="d-md-none"><i class="fas fa-bars mf-txt-color-white"></i></div>
           </div>
         </div>
       </div>
     </header>
 
-    <div class="mf-jumbotron">
+    <div class="mf-jumbotron py-4">
       <div class="container">
         <div class="row justify-content-center align-items-center text-center flex-column">
           <div class="img-jumbo">
             <img src="css/img/avatar.svg" alt="avatar">
           </div>
           <div class="col">
-            <h1 class="text-uppercase">Start bootstrap</h1>
+            <h1 class="text-uppercase mf-txt-color-white">Start bootstrap</h1>
           </div>
-          <div class="col">linea + font</div>
+          <div class="col"><i class="fas fa-star mf-txt-color-white"></i></div>
           <div class="col">
-            <h3 class="text-uppercase fs-6">Graphic artist - Web designer - Illustrator</h3>
+            <h3 class="text-uppercase fs-6 mf-txt-color-white">Graphic artist - Web designer - Illustrator</h3>
           </div>
         </div>
       </div>
     </div>
 
-  <main>
+  <main class="py-4">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -47,7 +51,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col text-center">Linea + font</div>
+        <div class="col text-center"><i class="fas fa-star"></i></div>
       </div>
   
       <div class="row">
@@ -85,23 +89,29 @@
     </div>
   </main>
 
-  <div class="credits">
+  <div class="credits py-4">
     <div class="container">
       <div class="row">
-        <div class="col-12 text-center">Portfolio</div>
+        <div class="col-12 text-center">
+          <h2 class="text-uppercase mf-txt-color-white">about</h2>
+        </div>
       </div>
       <div class="row">
-        <div class="col-12 text-center">Linea + font</div>
+        <div class="col-12 text-center"><i class="fas fa-star mf-txt-color-white"></i></div>
       </div>
 
       <div class="mf-container">
         <div class="container-fluid">
-          <div class="row">
+          <div class="row py-3">
             <div class="col-md-6">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non itaque quod cumque qui a dolor, et magnam, molestiae iusto saepe sit blanditiis laudantium temporibus maxime deserunt architecto! Dolorem, impedit officia?
+              <p class="mf-txt-color-white">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non itaque quod cumque qui a dolor, et magnam, molestiae iusto saepe sit blanditiis laudantium temporibus maxime deserunt architecto! Dolorem, impedit officia?
+              </p>
             </div>
             <div class="col-md-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi incidunt quae fugit, adipisci blanditiis sit officia iusto, voluptate in necessitatibus veritatis perferendis. Consequatur velit temporibus nobis modi sunt labore minima!
+              <p class="mf-txt-color-white">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non itaque quod cumque qui a dolor, et magnam, molestiae iusto saepe sit blanditiis laudantium temporibus maxime deserunt architecto! Dolorem, impedit officia?
+              </p>
             </div>
           </div>
         </div>
@@ -109,45 +119,67 @@
 
       <div class="row">
         <div class="col text-center">
-          <button class="btn btn-primary">Download</button>
+          <button class="btn mf-btn"><i class="fas fa-download"></i> Download</button>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="contacts">
+  <div class="contacts py-4">
     <div class="mf-container">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 text-center">Contact Me</div>
-          <div class="col-12 text-center">Linea + font</div>
+          <div class="col-12 text-center">
+            <h2 class="text-uppercase">contact me</h2>
+          </div>
+          <div class="col-12 text-center"><i class="fas fa-star"></i></div>
         </div>
 
-        <form action="">
-          
-        </form>
-  
-        <div class="row">
-          <div class="col-12">
-            Send
+        <form>
+          <div class="mb-3">
+            <input type="name" class="form-control mf-custom-border" id="exampleInputEmail1" placeholder="Name">
           </div>
-        </div>
+          <div class="mb-3">
+            <input type="Email" class="form-control mf-custom-border" id="exampleInputEmail1" placeholder="Email Address">
+          </div>
+          <div class="mb-3">
+            <input type="phone" class="form-control mf-custom-border" id="exampleInputEmail1" placeholder="Phone Number">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control mf-custom-border" rows="6" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn mf-bg-green">Send</button>
+        </form>
+
       </div>
     </div>
   </div>
 
   <footer>
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-4">
-          Location
+    <div class="footer-top">
+      <div class="container">
+        <div class="row text-center py-4">
+          <div class="col-md-4">
+            <div class="text-uppercase mf-txt-color-white">location</div>
+            <div class="mf-txt-color-white">2215 John Daniel Drive Clark, MO 54243</div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-uppercase mf-txt-color-white">around the web</div>
+            <div class="mf-font-circle">
+              <div class="mf-txt-color-white d-inline-block"><i class="fab fa-facebook-f"></i></div>
+              <div class="mf-txt-color-white d-inline-block"><i class="fab fa-google-plus-g"></i></div>
+              <div class="mf-txt-color-white d-inline-block"><i class="fab fa-twitter"></i></div>
+              <div class="mf-txt-color-white d-inline-block"><i class="fab fa-linkedin-in"></i></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-uppercase mf-txt-color-white">about freelancer</div>
+            <div class="mf-txt-color-white">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</div>
+          </div>
         </div>
-        <div class="col-md-4">
-          Around the web
-        </div>
-        <div class="col-md-4">
-          About Frrelancer
-        </div>
+      </div>
+      <div class="footer-bottom py-4">
+        <div class="text-center mf-txt-color-white">Copyright Your Website 2019</div>
       </div>
     </div>
   </footer>
