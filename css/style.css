@@ -1,22 +1,28 @@
 header {
    height: 70px;  /*da togliere */
-   background-color: blue;
+   background-color: #2C3D50;
    color: white;
 }
 
-.jumbotron {
+.mf-jumbotron {
   height: 300px;  /*da togliere */
-  background-color: aquamarine;
+  background-color: #31BC9C;
+  margin-top: 70px;
 }
 
 main {
   background-color: white;
 }
 
-.mf_box {
+.mf-box {
   height: 200px;
   background-color: blue;
   border-radius: 20px;
+}
+
+.mf-container {
+  width: 60%;
+  margin: 0 auto;
 }
 
 .credits {
