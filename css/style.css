@@ -5,9 +5,18 @@ header {
 }
 
 .mf-jumbotron {
-  height: 300px;  /*da togliere */
   background-color: #31BC9C;
   margin-top: 70px;
+}
+
+.img-jumbo {
+  width: 30%;
+  height: 30%;
+}
+
+.img-jumbo img {
+  width: 100%;
+  height: 100%;
 }
 
 main {
@@ -15,8 +24,11 @@ main {
 }
 
 .mf-box {
-  height: 200px;
-  background-color: blue;
+  position: relative;
+}
+
+.mf-box img {
+  width: 100%;
   border-radius: 20px;
 }
 
@@ -26,7 +38,7 @@ main {
 }
 
 .credits {
-  background-color: aquamarine;
+  background-color: #31BC9C;
 }
 
 .contacts {
@@ -36,6 +48,6 @@ main {
 
 footer {
   height: 100px;  /*da togliere */
-  background-color: blue;
+  background-color: #2C3D50;
   color: white;
 }
