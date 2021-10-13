@@ -1,6 +1,10 @@
+/********** HEADER **********/
+
 header {
    background-color: #2c3e50;
 }
+
+/********** JUMBO **********/
 
 .mf-jumbotron {
   background-color: #1abc9c;
@@ -10,6 +14,8 @@ header {
 .mf-jumbotron img {
   width: 20%;
 }
+
+/********** MAIN **********/
 
 main {
   background-color: white;
@@ -25,6 +31,8 @@ main {
   margin: 0 auto;
 }
 
+/********** CREDITS **********/
+
 .credits {
   background-color: #1abc9c;
 }
@@ -34,6 +42,8 @@ main {
   border: 1px solid white;
   color: white;
 }
+
+/********** CONTACTS **********/
 
 .contacts {
   background-color: #fff;
@@ -62,6 +72,8 @@ form{
 .mf-txt-color-white {
   color: white;
 }
+
+/********** FOOTER **********/
 
 .footer-top {
   background-color: #3a546d;
